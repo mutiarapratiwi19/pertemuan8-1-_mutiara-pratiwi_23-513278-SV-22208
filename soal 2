@@ -1,0 +1,7 @@
+angka = [30, 7, 5, 8, 35]
+
+def cek_angka(angka, cari):
+  for i in range(len(angka)):
+    if angka[i] == cari:
+      return "Ditemukan"
+  return "Tidak ditemukan"
