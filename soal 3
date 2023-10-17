@@ -1,0 +1,10 @@
+angka = [1, 3, 5, 7, 9]
+
+# Balik urutan elemen-elemen dalam array
+angka.reverse()
+
+# Tambah 1 ke setiap elemen dalam array
+for i in range(len(angka)):
+    angka[i] += 1
+
+print(angka)
